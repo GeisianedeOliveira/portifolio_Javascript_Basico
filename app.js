@@ -43,6 +43,10 @@ console.log("Terceiro caractere da palavra Brasil: " + país[3])
 let estados = ['Pernambuco', 'Rio de Janeiro', 'São Paulo'];
 console.log("O array 'estados' tem : " + estados.length  + " elementos.")
 
+//Retornar 2º de elemento da array:
+let estados = ['Pernambuco', 'Rio de Janeiro', 'São Paulo'];
+console.log("O segundo elemento array 'estados' é : " + estados[1])
+
 
 //Concatenando e retornando variáveis:
 let pratoDoDia = "Fricassê";
