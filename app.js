@@ -44,7 +44,6 @@ let estados = ['Pernambuco', 'Rio de Janeiro', 'São Paulo'];
 console.log("O array 'estados' tem : " + estados.length  + " elementos.")
 
 //Retornar 2º de elemento da array:
-let estados = ['Pernambuco', 'Rio de Janeiro', 'São Paulo'];
 console.log("O segundo elemento array 'estados' é : " + estados[1])
 
 
@@ -60,9 +59,9 @@ console.log("O total do pedido de " + nomeDoCliente + " é de " + (precoDoPratoD
 
 let age = prompt("Quantos anos você tem?")
 
-if(age < 18) {
-    alert("Acesso negado!")
-} else {
+if(age > 18) {
     alert("Acesso autorizado!")
+} else {
+    //Se for menor idade o usuário será direcionar para 
+    window.location.href = "https://br.peppapig.com/"
 }
-
